@@ -1,1 +1,22 @@
 /* your code */
+table,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+table{
+	width:100%;
+}
+td,th{
+	height:25px;
+	text-align:center
+}
+th{
+	background:darkblue;
+	color:white;
+}
+tr:nth-child(even){
+	background:lightgray
+}
+#name{
+	text-align:start
+}
